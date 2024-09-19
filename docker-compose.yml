@@ -1,0 +1,6 @@
+services:
+  c4:
+    image: ${DOCKER_REGISTRY-}c4
+    build:
+      context: .
+      dockerfile: C4/Dockerfile
